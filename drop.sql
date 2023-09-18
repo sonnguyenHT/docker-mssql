@@ -3,7 +3,7 @@ quit
 --drop database
 drop database SampleDatabase;
 GO
---- check again
+--- check all database in mssql server
 select name from sys.databases;
 GO
 
